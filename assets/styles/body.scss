@@ -1,0 +1,28 @@
+@import 'colors';
+
+body {
+  text-align: center;
+}
+
+.container{
+  margin-top: 10px;
+}
+
+pre {
+  display: inline-grid;
+  margin: 20px 10px;
+  text-align: left;
+}
+
+.row {
+  // display: inline-flex;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.table{
+  border: 1px solid $black;
+  padding: 10px 5px;
+  margin: 0 auto;
+  margin-top: 10px;
+}

@@ -1,0 +1,113 @@
+@import 'colors';
+@import 'typography';
+@import 'body';
+
+.rotate-right-Z360 {
+  background-color: $redtint;
+  border: 1px solid $white;
+  border-radius: 5px;
+  font-size: 5px;
+  height: 50px;
+  margin: 15px 15px 0;
+  padding-top: 10px;
+  text-align: center;
+  transition: 1s;
+  width: 150px;
+
+  p {
+    font-size: 12px;
+  }
+}
+
+.rotate-right-Z360:hover {
+  transform: rotateZ(360deg);
+  transition: 1s;
+}
+
+.rotate-left-Z360 {
+  background-color: $redtint;
+  border: 1px solid $white;
+  border-radius: 5px;
+  font-size: 5px;
+  height: 50px;
+  margin: 15px 15px 0;
+  padding-top: 10px;
+  text-align: center;
+  transition: 1s;
+  width: 150px;
+
+  p {
+    font-size: 12px;
+  }
+}
+
+.rotate-left-Z360:hover {
+  transform: rotateZ(-360deg);
+  transition: 1s;
+}
+
+.rotate-right-Z180{
+  background-color: $redtint;
+  border: 1px solid $white;
+  border-radius: 5px;
+  font-size: 5px;
+  height: 50px;
+  margin: 15px 15px 0;
+  padding-top: 10px;
+  text-align: center;
+  transition: 1s;
+  width: 150px;
+
+  p {
+    font-size: 12px;
+  }
+}
+
+.rotate-right-Z180:hover{
+  transform: rotateZ(180deg);
+  transition: 1s;
+}
+
+.rotate-left-Z180 {
+  background-color: $redtint;
+  border: 1px solid $white;
+  border-radius: 5px;
+  font-size: 5px;
+  height: 50px;
+  margin: 15px 15px 0;
+  padding-top: 10px;
+  text-align: center;
+  transition: 1s;
+  width: 150px;
+
+  p {
+    font-size: 12px;
+  }
+}
+
+.rotate-left-Z180:hover {
+  transform: rotateZ(-180deg);
+  transition: 1s;
+}
+
+.rotate-right-Y360 {
+  background-color: $redtint;
+  border: 1px solid $white;
+  border-radius: 5px;
+  font-size: 5px;
+  height: 50px;
+  margin: 15px 15px 0;
+  padding-top: 10px;
+  text-align: center;
+  transition: 2s;
+  width: 150px;
+
+  p {
+    font-size: 12px;
+  }
+}
+
+.rotate-right-Y360:hover {
+  transform: rotateY(360deg);
+  transition: 2s;
+}

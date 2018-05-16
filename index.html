@@ -29,18 +29,18 @@
 
 <!--Shadow Starts-->
 <div class="container" id="shadows">
-  <!--Grow Button-->
   <div class="row table">
     <h1 class="shadow">Shadow Effects</h1>
       <p>Click on each button to view the code!</p>
     <hr>
-  <!--Grown Button End-->
-
-  <!--Grow Button Animation in CSS  -->
-  <div class="col-lg-2 col-xs-3">
+  <div class="row">
+  <!--Grow Button Starts-->
+  <div class="col-lg-3 col-xs-12">
     <button class="btn white grow" data-toggle="modal" data-target="#growModal">
       <p>Grow</p>
     </button>
+  <!--Grown Button End-->
+
     <!--Grow Code Modal-->
     <div class="modal fade" id="growModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
       <div class="modal-dialog modal-lg" role="document">
@@ -88,9 +88,9 @@
   <!--End Grow Button Animation in CSS  -->
 
   <!--Shrink Starts-->
-  <div class="col-lg-2 col-xs-3">
+  <div class="col-lg-3 col-xs-12">
     <!--Shrink Button Begins  -->
-    <button class="btn white shrink col-lg-3 col-xs-3" data-toggle="modal" data-target="#shrinkModal">
+    <button class="btn white shrink" data-toggle="modal" data-target="#shrinkModal">
       <p>Shrink</p>
     </button>
   <!--End Shrink Button -->
@@ -139,11 +139,8 @@
   <!--End Shrink Modal -->
     </div>
   <!--Shrink Ends  -->
-
-  <
-
-
   </div>
+</div>
 </div>
 <!--Shadow Ends-->
 
@@ -153,28 +150,26 @@
       <h1 class="rotate">Rotate Effects</h1>
         <p>Click on each button to view the code!</p>
       <hr>
-
-    <!--Rotate-RIght Start-->
-    <div class="col-lg-2 col-xs-3">
+    <div class="row">
+    <!--Rotate-RIght Z-360 Start-->
+    <div class="col-lg-3 col-xs-12">
     <!--Rotate-RIght Button Begins-->
-      <button class="btn white rotate-right" data-toggle="modal" data-target="#rotateRightModal">
-        <p>Rotate
-        <br>
-        Right</p>
+      <button class="btn white rotate-right-Z360" data-toggle="modal" data-target="#rotateRightZ360Modal">
+        <p>Rotate Right <br> Z-360&#176;</p>
       </button>
-    <!--Rotate-RIght Button Ends  -->
+    <!--Rotate-RIght Z-360 Button Ends  -->
 
-    <!--Rotate-RIght Modal Begin-->
-      <div class="modal fade" id="rotateRightModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+    <!--Rotate-RIght Z-360 Modal Begin-->
+      <div class="modal fade" id="rotateRightZ360Modal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
         <div class="modal-dialog modal-lg" role="document">
           <div class="modal-content">
             <ul class="nav nav-tabs nav-justified">
-              <li class="active"><a data-toggle="tab" id="right-html" href=".html-content">HTML</a></li>
-              <li><a data-toggle="tab" id="right-css" href=".css-content">CSS</a></li>
+              <li class="active"><a data-toggle="tab" id="right-Z360-html" href=".html-content">HTML</a></li>
+              <li><a data-toggle="tab" id="right-Z360-css" href=".css-content">CSS</a></li>
             </ul>
             <div class="html-content">
               <pre>
-                <code>&lt;button class="btn white rotate-right"&gt;</code>
+                <code>&lt;button class="btn white rotate-right-Z360"&gt;</code>
                 <code>&lt;p&gt;Rotate &lt;br&gt; Right &lt;/p&gt;</code>
                 <code>&lt;/button&gt;</code>
               </pre>
@@ -182,7 +177,7 @@
             <div class="css-content hidden">
              <pre>
       <code class="style">
-      .rotate-right {
+      .rotate-right-Z360 {
         background-color: $redtint;
         border: 1px solid $white;
         border-radius: 5px;
@@ -200,8 +195,8 @@
       }</code>
               </pre>
               <pre>
-      <code class="style">.rotate-right:hover {
-        transform: rotate(360deg);
+      <code class="style">.rotate-right-360Z:hover {
+        transform: rotateZ(360deg);
         transition: 1s;
       }</code>
               </pre>
@@ -209,30 +204,28 @@
           </div>
         </div>
       </div>
-      <!--End Rotate-Right Modal  -->
+      <!--End Rotate-Right Z-360 Modal  -->
     </div>
-    <!--Rotate-Right Ends  -->
+    <!--Rotate-Right Z-360 Ends  -->
 
-    <!--Rotate-Left Starts-->
-    <div class="col-lg-2 col-xs-3">
-    <!--Rotate-Left Button Begins  -->
-      <button class="btn white rotate-left col-lg-6" data-toggle="modal" data-target="#rotateLeftModal">
-        <p>Rotate
-          <br>
-          Left</p>
+    <!--Rotate-Left Z-360 Starts-->
+    <div class="col-lg-3 col-xs-12">
+    <!--Rotate-Left Z-360 Button Begins  -->
+      <button class="btn white rotate-left-Z360" data-toggle="modal" data-target="#rotateLeftZ360Modal">
+        <p>Rotate Left <br> Z-360&#176;</p>
         </button>
-    <!--Rotate-Left Button Ends  -->
-    <!--Rotate-Left Modal Begins  -->
-      <div class="modal fade" id="rotateLeftModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+    <!--Rotate-Left Z-360 Button Ends  -->
+    <!--Rotate-Left Z-360 Modal Begins  -->
+      <div class="modal fade" id="rotateLeftZ360Modal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
         <div class="modal-dialog modal-lg" role="document">
           <div class="modal-content">
             <ul class="nav nav-tabs nav-justified">
-              <li class="active"><a data-toggle="tab" id="left-html" href=".html-content">HTML</a></li>
-              <li><a data-toggle="tab" id="left-css" href=".css-content">CSS</a></li>
+              <li class="active"><a data-toggle="tab" id="left-Z360-html" href=".html-content">HTML</a></li>
+              <li><a data-toggle="tab" id="left-Z360-css" href=".css-content">CSS</a></li>
             </ul>
             <div class="html-content">
               <pre>
-                <code>&lt;button class="btn white rotate-left"&gt;</code>
+                <code>&lt;button class="btn white rotate-left-Z360"&gt;</code>
                 <code>&lt;p&gt;Rotate &lt;br&gt; Left &lt;/p&gt;</code>
                 <code>&lt;/button&gt;</code>
               </pre>
@@ -240,7 +233,7 @@
             <div class="css-content hidden">
              <pre>
       <code class="style">
-      .rotate-left {
+      .rotate-left-Z360 {
         background-color: $redtint;
         border: 1px solid $white;
         border-radius: 5px;
@@ -258,8 +251,8 @@
       }</code>
               </pre>
               <pre>
-      <code class="style">.rotate-right:hover {
-        transform: rotate(-360deg);
+      <code class="style">.rotate-left-Z360:hover {
+        transform: rotateZ(-360deg);
         transition: 1s;
       }</code>
               </pre>
@@ -267,10 +260,186 @@
           </div>
         </div>
       </div>
-    <!--Rotate-Left Modal Ends  -->
+    <!--Rotate-Left Z-360 Modal Ends  -->
       </div>
+    <!--Rotate-Left Z-360 Ends-->
+
+    <!--Rotate-Right Z-180 Start-->
+    <div class="col-lg-3 col-xs-12">
+    <!--Rotate-RIght Z-180 Button Begins-->
+      <button class="btn white rotate-right-Z180" data-toggle="modal" data-target="#rotateRightZ180Modal">
+        <p>Rotate Right <br> Z-180&#176;</p>
+      </button>
+    <!--Rotate-RIght Z-180 Button Ends  -->
+
+    <!--Rotate-RIght Z-180 Modal Begin-->
+      <div class="modal fade" id="rotateRightZ180Modal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <ul class="nav nav-tabs nav-justified">
+              <li class="active"><a data-toggle="tab" id="right-Z180-html" href=".html-content">HTML</a></li>
+              <li><a data-toggle="tab" id="right-Z180-css" href=".css-content">CSS</a></li>
+            </ul>
+            <div class="html-content">
+              <pre>
+                <code>&lt;button class="btn white rotate-right-Z180"&gt;</code>
+                <code>&lt;p&gt;Rotate &lt;br&gt; Right &lt;/p&gt;</code>
+                <code>&lt;/button&gt;</code>
+              </pre>
+            </div>
+            <div class="css-content hidden">
+             <pre>
+      <code class="style">
+      .rotate-right-Z180 {
+        background-color: $redtint;
+        border: 1px solid $white;
+        border-radius: 5px;
+        font-size: 5px;
+        height: 50px;
+        margin: 15px 15px 0;
+        padding-top: 10px;
+        text-align: center;
+        transition: 1s;
+        width: 150px;
+
+        p {
+          font-size: 12px;
+        }
+      }</code>
+              </pre>
+              <pre>
+      <code class="style">.rotate-right-Z180:hover {
+        transform: rotateZ(360deg);
+        transition: 1s;
+      }</code>
+              </pre>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--End Rotate-Right Z-180 Modal  -->
+    </div>
+    <!--Rotate-Right Z-180 Ends-->
+
+      <!--Rotate-Left Z-180 Start-->
+      <div class="col-lg-3 col-xs-12">
+      <!--Rotate-RIght Z-180 Button Begins-->
+        <button class="btn white rotate-left-Z180" data-toggle="modal" data-target="#rotateLeftZ180Modal">
+          <p>Rotate Left <br> Z-180&#176;</p>
+        </button>
+      <!--Rotate-Left Z-180 Button Ends  -->
+
+      <!--Rotate-Left Z-180 Modal Begin-->
+        <div class="modal fade" id="rotateLeftZ180Modal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <ul class="nav nav-tabs nav-justified">
+                <li class="active"><a data-toggle="tab" id="left-Z180-html" href=".html-content">HTML</a></li>
+                <li><a data-toggle="tab" id="left-Z180-css" href=".css-content">CSS</a></li>
+              </ul>
+              <div class="html-content">
+                <pre>
+                  <code>&lt;button class="btn white rotate-left-Z180"&gt;</code>
+                  <code>&lt;p&gt;Rotate &lt;br&gt; Right &lt;/p&gt;</code>
+                  <code>&lt;/button&gt;</code>
+                </pre>
+              </div>
+              <div class="css-content hidden">
+               <pre>
+        <code class="style">
+        .rotate-left-Z180 {
+          background-color: $redtint;
+          border: 1px solid $white;
+          border-radius: 5px;
+          font-size: 5px;
+          height: 50px;
+          margin: 15px 15px 0;
+          padding-top: 10px;
+          text-align: center;
+          transition: 1s;
+          width: 150px;
+
+          p {
+            font-size: 12px;
+          }
+        }</code>
+                </pre>
+                <pre>
+        <code class="style">.rotate-left-Z180:hover {
+          transform: rotateZ(360deg);
+          transition: 1s;
+        }</code>
+                </pre>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--End Rotate-Left Z-180 Modal  -->
+      </div>
+      <!--Rotate-Left Z-180 Ends-->
+    </div>
+      <!--Second Row Rotate-->
+    <div class="row">
+      <!--Rotate-RIght 360 Start-->
+      <div class="col-lg-3 col-xs-12">
+      <!--Rotate-RIght Button Begins-->
+        <button class="btn white rotate-right-Y360" data-toggle="modal" data-target="#rotateRightY360Modal">
+          <p>Rotate Right <br> Y-360&#176;</p>
+        </button>
+      <!--Rotate-RIght Button Ends  -->
+
+      <!--Rotate-RIght Modal Begin-->
+        <div class="modal fade" id="rotateRightY360Modal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <ul class="nav nav-tabs nav-justified">
+                <li class="active"><a data-toggle="tab" id="right-Y360-html" href=".html-content">HTML</a></li>
+                <li><a data-toggle="tab" id="right-Y360-css" href=".css-content">CSS</a></li>
+              </ul>
+              <div class="html-content">
+                <pre>
+                  <code>&lt;button class="btn white rotate-right-Y360"&gt;</code>
+                  <code>&lt;p&gt;Rotate &lt;br&gt; Right &lt;/p&gt;</code>
+                  <code>&lt;/button&gt;</code>
+                </pre>
+              </div>
+              <div class="css-content hidden">
+               <pre>
+        <code class="style">
+        .rotate-right-Y360 {
+          background-color: $redtint;
+          border: 1px solid $white;
+          border-radius: 5px;
+          font-size: 5px;
+          height: 50px;
+          margin: 15px 15px 0;
+          padding-top: 10px;
+          text-align: center;
+          transition: 1s;
+          width: 150px;
+
+          p {
+            font-size: 12px;
+          }
+        }</code>
+                </pre>
+                <pre>
+        <code class="style">.rotate-right-Y360:hover {
+          transform: rotateZ(360deg);
+          transition: 1s;
+        }</code>
+                </pre>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--End Rotate-Right Modal  -->
+      </div>
+      <!--Rotate-Right 360 Ends  -->
+
+    </div>
+    <!--End Second Row Rotate  -->
     </div>
   </div>
-  <!--Rotate Ends-->
 </body>
 </html>

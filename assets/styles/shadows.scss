@@ -1,0 +1,42 @@
+@import 'colors';
+@import 'typography';
+@import 'body';
+
+
+.grow {
+  background-color: $redtint;
+  border: 1px solid $white;
+  border-radius: 5px;
+  height: 50px;
+  margin: 5px 15px 0;
+  padding-top: 15px;
+  text-align: center;
+  transition: .5s;
+  width: 150px;
+}
+
+.grow:hover {
+  border: 0;
+  box-shadow: 1px 1px 20px 1px $black;
+  transform: scale(1.15);
+  transition: .5s;
+}
+
+.shrink {
+  background-color: $redtint;
+  border: 1px solid $white;
+  border-radius: 5px;
+  height: 50px;
+  margin: 5px 15px 0;
+  padding-top: 15px;
+  text-align: center;
+  transition: .5s;
+  width: 150px;
+}
+
+.shrink:hover {
+  border: 0;
+  box-shadow: 1px 1px 20px 1px $black;
+  transform: scale(.8);
+  transition: .5s;
+}

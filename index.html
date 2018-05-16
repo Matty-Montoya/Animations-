@@ -6,12 +6,68 @@
 
       <!-- Do not add `link` tags-->
       <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-
+      <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
       <!-- Do not add `script` tags-->
       <script src="public/vendor.js" type="text/javascript" charset="utf-8" defer></script>
       <script src="public/application.js" type="text/javascript" charset="utf-8" defer></script>
     </head>
     <body>
-      <h1>Browser Template</h1>
+      <header>
+        <h1>CSS Button Animations</h1>
+        <p class="">With the installment of CSS3, we were presented with <em>animation</em> and <em>transformation</em> properties.</p>
+      </header>
+      <div class="container">
+      <!--Grow Button Animation in CSS  -->
+        <div class="row table1">
+            <h1 class="shadow">Shadow Effects</h1>
+            <p>Click on each button to view the code!</p>
+            <hr>
+            <!--Grow Button Animation in CSS  -->
+            <div class="col-lg-3">
+              <button class="btn white grow" data-toggle="modal" data-target="#growModal">
+                <p>Grow</p>
+              </button>
+              <br>
+              <!--Grow Code Modal  -->
+                <div class="modal fade" id="growModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+                  <div class="modal-dialog modal-sm" role="document">
+                    <div class="modal-content">
+                      <div class="html">
+                        <h2>HTML</h2>
+                          <hr>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <!--End Grow Button Animation in CSS  -->
+          <div class="btn white shrink col-lg-8">
+            <p>Shrink</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="btn white rotate-right col-lg-6">
+            <p>Rotate
+            <br>
+            Right</p>
+          </div>
+          <div class="btn white rotate-left col-lg-6">
+            <p>Rotate
+            <br>
+            Left</p>
+          </div>
+        </div>
+      </div>
+      <!--End of Grow Button -->
+
+
+
+        </div>
+
+
+      </div>
+
     </body>
 </html>

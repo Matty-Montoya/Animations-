@@ -16,16 +16,26 @@ h4 {
   font-family: 'Monoton', cursive;
 }
 
-p {
+p,
+a  {
   font-family: 'Russo One', sans-serif;
   text-transform: uppercase;
   font-size: 15px;
 }
 
+
 .white {
   color: $white;
 
 }
+
+pre {
+  display: inline-grid;
+  margin: 20px 10px;
+  text-align: left;
+}
+
+
 
 .row {
   // display: inline-flex;
@@ -43,8 +53,7 @@ p {
   padding-top: 15px;
   text-align: center;
   transition: .5s;
-  width: 100px;
-
+  width: 150px;
 }
 
 .grow:hover {
@@ -63,7 +72,7 @@ p {
   padding-top: 15px;
   text-align: center;
   transition: .5s;
-  width: 100px;
+  width: 150px;
 
 }
 
@@ -84,7 +93,7 @@ p {
   padding-top: 10px;
   text-align: center;
   transition: .5s;
-  width: 100px;
+  width: 150px;
 
   p {
     font-size: 12px;
@@ -106,7 +115,7 @@ p {
   padding-top: 10px;
   text-align: center;
   transition: .5s;
-  width: 100px;
+  width: 150px;
 
   p {
     font-size: 12px;
@@ -119,7 +128,7 @@ p {
 }
 
 
-.table1 {
+.table{
   border: 1px solid black;
   padding: 10px 5px;
   margin: 0 auto;

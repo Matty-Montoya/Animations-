@@ -17,36 +17,86 @@
         <h1>CSS Button Animations</h1>
         <p class="">With the installment of CSS3, we were presented with <em>animation</em> and <em>transformation</em> properties.</p>
       </header>
-      <div class="container">
-      <!--Grow Button Animation in CSS  -->
-        <div class="row table1">
-            <h1 class="shadow">Shadow Effects</h1>
-            <p>Click on each button to view the code!</p>
-            <hr>
-            <!--Grow Button Animation in CSS  -->
-            <div class="col-lg-3">
-              <button class="btn white grow" data-toggle="modal" data-target="#growModal">
-                <p>Grow</p>
-              </button>
-              <br>
-              <!--Grow Code Modal  -->
-                <div class="modal fade" id="growModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
-                  <div class="modal-dialog modal-sm" role="document">
-                    <div class="modal-content">
-                      <div class="html">
-                        <h2>HTML</h2>
-                          <hr>
 
-                      </div>
-                    </div>
-                  </div>
-                </div>
-            </div>
-            <!--End Grow Button Animation in CSS  -->
-          <div class="btn white shrink col-lg-8">
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <ul class="nav navbar-nav">
+          <li><a class="page-scroll" href="#shadows">Shadow</a></li>
+          <li><a class="page-scroll" href="#rotate">Rotate</a></li>
+        </ul>
+      </div>
+    </nav>
+
+<div class="container" id="shadows">
+  <!--Grow Button Animation in CSS  -->
+  <div class="row table">
+    <h1 class="shadow">Shadow Effects</h1>
+      <p>Click on each button to view the code!</p>
+    <hr>
+
+  <!--Grow Button Animation in CSS  -->
+  <div class="col-lg-3" col-xs-3>
+    <button class="btn white grow" data-toggle="modal" data-target="#growModal">
+      <p>Grow</p>
+    </button>
+      <br>
+    <!--Grow Code Modal  -->
+    <div class="modal fade" id="growModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <ul class="nav nav-tabs nav-justified">
+            <li class="active"><a data-toggle="tab" id="grow-html" href=".html-content">HTML</a></li>
+            <li><a data-toggle="tab" id="grow-css" href=".css-content">CSS</a></li>
+          </ul>
+          <div class="html-content">
+            <pre>
+              <code>&lt;button class="btn white grow" data-toggle="modal" data-target="#growModal"&gt;</code>
+              <code>&lt;h3&gt;Grow&lt;/h3&gt;</code>
+              <code>&lt;/button&gt;</code>
+            </pre>
+          </div>
+          <div class="css-content hidden">
+           <pre>
+    <code class="style">
+    .grow {
+    background-color: $redtint;
+    border: 1px solid $white;
+    border-radius: 5px;
+    height: 50px;
+    margin: 5px 15px 0;
+    padding-top: 15px;
+    text-align: center;
+    transition: .5s;
+    width: 150px;
+    }</code>
+            </pre>
+            <pre>
+    <code class="style">.grow:hover {
+      border: 0;
+      box-shadow: 1px 1px 20px 1px $black;
+      transform: scale(1.15);
+      transition: .5s;
+    }</code>
+            </pre>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--End Grow Modal -->
+  </div>
+  <!--End Grow Button Animation in CSS  -->
+          <div class="btn white shrink col-lg-3" col-xs-3>
             <p>Shrink</p>
           </div>
         </div>
+</div>
+
+<div class="container" id="rotate">
+  <!--Grow Button Animation in CSS  -->
+  <div class="row table">
+    <h1 class="rotate">Rotate Effects</h1>
+      <p>Click on each button to view the code!</p>
+    <hr>
         <div class="row">
           <div class="btn white rotate-right col-lg-6">
             <p>Rotate
@@ -60,14 +110,10 @@
           </div>
         </div>
       </div>
-      <!--End of Grow Button -->
+  <!--End of Grow Button -->
+</div>
 
 
-
-        </div>
-
-
-      </div>
 
     </body>
 </html>

@@ -18,6 +18,10 @@ const addHandlers = () => {
   $('#grow-html').click(onHTMLClick)
   $('#shrink-css').click(onCSSClick)
   $('#shrink-html').click(onHTMLClick)
+  $('#right-css').click(onCSSClick)
+  $('#right-html').click(onHTMLClick)
+  $('#left-css').click(onCSSClick)
+  $('#left-html').click(onHTMLClick)
 }
 
 module.exports = {

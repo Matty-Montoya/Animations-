@@ -28,18 +28,18 @@
     </nav>
 
 <div class="container" id="shadows">
-  <!--Grow Button Animation in CSS  -->
+  <!--Grow Button Animation-->
   <div class="row table">
     <h1 class="shadow">Shadow Effects</h1>
       <p>Click on each button to view the code!</p>
     <hr>
+  <!--Grown Button End Animation  -->
 
   <!--Grow Button Animation in CSS  -->
-  <div class="col-lg-3" col-xs-3>
+  <div class="col-lg-2 col-xs-3">
     <button class="btn white grow" data-toggle="modal" data-target="#growModal">
       <p>Grow</p>
     </button>
-      <br>
     <!--Grow Code Modal  -->
     <div class="modal fade" id="growModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
       <div class="modal-dialog modal-lg" role="document">
@@ -50,8 +50,8 @@
           </ul>
           <div class="html-content">
             <pre>
-              <code>&lt;button class="btn white grow" data-toggle="modal" data-target="#growModal"&gt;</code>
-              <code>&lt;h3&gt;Grow&lt;/h3&gt;</code>
+              <code>&lt;button class="btn white grow"&gt;</code>
+              <code>&lt;p&gt;Grow&lt;/p&gt;</code>
               <code>&lt;/button&gt;</code>
             </pre>
           </div>
@@ -85,16 +85,64 @@
     <!--End Grow Modal -->
   </div>
   <!--End Grow Button Animation in CSS  -->
-          <div class="btn white shrink col-lg-3" col-xs-3>
-            <p>Shrink</p>
-          </div>
+
+  <!--Shrink Button Animation-->
+  <div class="col-lg-2 col-xs-3">
+    <button class="btn white shrink col-lg-3 col-xs-3" data-toggle="modal" data-target="#shrinkModal">
+      <p>Shrink</p>
+    </button>
+  <!--End Shrink Animation  -->
+  <!--Shrink Code Modal  -->
+  <div class="modal fade" id="shrinkModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <ul class="nav nav-tabs nav-justified">
+          <li class="active"><a data-toggle="tab" id="shrink-html" href=".html-content">HTML</a></li>
+          <li><a data-toggle="tab" id="shrink-css" href=".css-content">CSS</a></li>
+        </ul>
+        <div class="html-content">
+          <pre>
+            <code>&lt;button class="btn white shrink"&gt;</code>
+            <code>&lt;p&gt;Shrink&lt;/p&gt;</code>
+            <code>&lt;/button&gt;</code>
+          </pre>
         </div>
+        <div class="css-content hidden">
+         <pre>
+  <code class="style">
+  .shrink {
+    background-color: $redtint;
+    border: 1px solid $white;
+    border-radius: 5px;
+    height: 50px;
+    margin: 5px 15px 0;
+    padding-top: 15px;
+    text-align: center;
+    transition: .5s;
+    width: 150px;
+  }</code>
+          </pre>
+          <pre>
+  <code class="style">.shrink:hover {
+    border: 0;
+    box-shadow: 1px 1px 20px 1px $black;
+    transform: scale(.8);
+    transition: .5s;
+  }</code>
+          </pre>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--End Shrink Modal -->
+    </div>
+  </div>
 </div>
 
 <div class="container" id="rotate">
   <!--Grow Button Animation in CSS  -->
   <div class="row table">
-    <h1 class="rotate">Rotate Effects</h1>
+    <h1 class="rotate">Rotate  Effects</h1>
       <p>Click on each button to view the code!</p>
     <hr>
         <div class="row">

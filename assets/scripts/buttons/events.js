@@ -16,6 +16,8 @@ const addHandlers = () => {
   $('modal').modal('toggle')
   $('#grow-css').click(onCSSClick)
   $('#grow-html').click(onHTMLClick)
+  $('#shrink-css').click(onCSSClick)
+  $('#shrink-html').click(onHTMLClick)
 }
 
 module.exports = {

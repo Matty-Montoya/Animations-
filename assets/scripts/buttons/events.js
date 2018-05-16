@@ -28,6 +28,8 @@ const addHandlers = () => {
   $('#left-Z180-html').click(onHTMLClick)
   $('#right-Y360-css').click(onCSSClick)
   $('#right-Y360-html').click(onHTMLClick)
+  $('#left-Y360-css').click(onCSSClick)
+  $('#left-Y360-html').click(onHTMLClick)
 }
 
 module.exports = {

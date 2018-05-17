@@ -9,10 +9,14 @@
   border-radius: 5px;
   height: 50px;
   margin: 5px 15px 0;
-  padding-top: 15px;
+  padding-top: 8px;
   text-align: center;
   transition: .5s;
   width: 150px;
+
+  p {
+    font-size: 12px;
+  }
 }
 
 .grow:hover {
@@ -22,16 +26,43 @@
   transition: .5s;
 }
 
+.grow-under {
+  background-color: $redtint;
+  border: 1px solid $white;
+  border-radius: 5px;
+  height: 50px;
+  margin: 5px 15px 0;
+  padding-top: 8px;
+  text-align: center;
+  transition: .5s;
+  width: 150px;
+
+  p {
+    font-size: 12px;
+  }
+}
+
+.grow-under:hover {
+  border: 0;
+  box-shadow: 0 1px  $black;
+  transform: perspective(1px) translateZ(0) scale(1.15);
+  transition: .5s;
+}
+
 .shrink {
   background-color: $redtint;
   border: 1px solid $white;
   border-radius: 5px;
   height: 50px;
   margin: 5px 15px 0;
-  padding-top: 15px;
+  padding-top: 8px;
   text-align: center;
   transition: .5s;
   width: 150px;
+
+  p {
+    font-size: 12px;
+  }
 }
 
 .shrink:hover {

@@ -30,6 +30,18 @@ const addHandlers = () => {
   $('#right-Y360-html').click(onHTMLClick)
   $('#left-Y360-css').click(onCSSClick)
   $('#left-Y360-html').click(onHTMLClick)
+  $('#right-Y180-css').click(onCSSClick)
+  $('#right-Y180-html').click(onHTMLClick)
+  $('#left-Y180-css').click(onCSSClick)
+  $('#left-Y180-html').click(onHTMLClick)
+  $('#right-X360-css').click(onCSSClick)
+  $('#right-X360-html').click(onHTMLClick)
+  $('#left-X360-css').click(onCSSClick)
+  $('#left-X360-html').click(onHTMLClick)
+  $('#right-X180-css').click(onCSSClick)
+  $('#right-X180-html').click(onHTMLClick)
+  $('#left-X180-css').click(onCSSClick)
+  $('#left-X180-html').click(onHTMLClick)
 }
 
 module.exports = {

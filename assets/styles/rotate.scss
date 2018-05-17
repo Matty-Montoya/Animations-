@@ -133,3 +133,135 @@
   transform: rotateY(-360deg);
   transition: 2.5s ease;
 }
+
+.rotate-right-Y180 {
+  background-color: $bluetint;
+  border: 1px solid $white;
+  border-radius: 5px;
+  font-size: 5px;
+  height: 50px;
+  margin: 15px 15px 0;
+  padding-top: 10px;
+  text-align: center;
+  transition: 1s;
+  width: 150px;
+
+  p {
+    font-size: 12px;
+  }
+}
+
+.rotate-right-Y180:hover {
+  transform: rotateY(180deg);
+  transition: 1.5s ease;
+}
+
+.rotate-left-Y180 {
+  background-color: $bluetint;
+  border: 1px solid $white;
+  border-radius: 5px;
+  font-size: 5px;
+  height: 50px;
+  margin: 15px 15px 0;
+  padding-top: 10px;
+  text-align: center;
+  transition: 1s;
+  width: 150px;
+
+  p {
+    font-size: 12px;
+  }
+}
+
+.rotate-left-Y180:hover {
+  transform: rotateY(-180deg);
+  transition: 1.5s ease;
+}
+
+.rotate-right-X360 {
+  background-color: $bluetint;
+  border: 1px solid $white;
+  border-radius: 5px;
+  font-size: 5px;
+  height: 50px;
+  margin: 15px 15px 0;
+  padding-top: 10px;
+  text-align: center;
+  transition: 1s;
+  width: 150px;
+
+  p {
+    font-size: 12px;
+  }
+}
+
+.rotate-right-X360:hover {
+  transform: rotateX(360deg);
+  transition: 1.5s ease;
+}
+
+.rotate-left-X360 {
+  background-color: $bluetint;
+  border: 1px solid $white;
+  border-radius: 5px;
+  font-size: 5px;
+  height: 50px;
+  margin: 15px 15px 0;
+  padding-top: 10px;
+  text-align: center;
+  transition: 1s;
+  width: 150px;
+
+  p {
+    font-size: 12px;
+  }
+}
+
+.rotate-left-X360:hover {
+  transform: rotateX(-360deg);
+  transition: 1.5s ease;
+}
+
+.rotate-right-X180 {
+  background-color: $bluetint;
+  border: 1px solid $white;
+  border-radius: 5px;
+  font-size: 5px;
+  height: 50px;
+  margin: 15px 15px 0;
+  padding-top: 10px;
+  text-align: center;
+  transition: 1s;
+  width: 150px;
+
+  p {
+    font-size: 12px;
+  }
+}
+
+.rotate-right-X180:hover {
+  transform: rotateX(180deg);
+  transition: 1.5s ease;
+}
+
+.rotate-left-X180 {
+  background-color: $bluetint;
+  border: 1px solid $white;
+  border-radius: 5px;
+  font-size: 5px;
+  height: 50px;
+  margin: 15px 15px 0;
+  padding-top: 10px;
+  text-align: center;
+  transition: 1s;
+  width: 150px;
+
+  p {
+    font-size: 12px;
+  }
+}
+
+.rotate-left-X180:hover {
+  transform: rotateX(-180deg);
+  transition: 1.5s ease;
+}

@@ -878,25 +878,25 @@
       <p>Click on each button to view the code!</p>
     <hr>
   <div class="row">
-    <!--Grow Button Starts-->
+    <!-- Fade Out Button Starts-->
     <div class="col-lg-3 col-xs-12">
       <button class="btn white fade-out" data-toggle="modal" data-target="#fadeOutModal">
         <p>Fade-Out </p>
       </button>
-    <!--Grown Button End-->
+    <!--Fade Out Button End-->
 
-      <!--Grow Code Modal-->
+      <!--Fade Out Modal-->
       <div class="modal fade" id="fadeOutModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
         <div class="modal-dialog modal-lg" role="document">
           <div class="modal-content">
             <ul class="nav nav-tabs nav-justified">
-              <li class="active"><a data-toggle="tab" id="fadeOut-html" href=".html-content">HTML</a></li>
+              <li class="active"><a data-toggle="tab" id="fadeOut-hmtl" href=".html-content">HTML</a></li>
               <li><a data-toggle="tab" id="fadeOut-css" href=".css-content">CSS</a></li>
             </ul>
             <div class="html-content">
               <pre>
                 <code>&lt;button class="btn white fade-out"&gt;</code>
-                <code>&lt;p&gt;Grow&lt;/p&gt;</code>
+                <code>&lt;p&gt;Fade-Out&lt;/p&gt;</code>
                 <code>&lt;/button&gt;</code>
               </pre>
             </div>
@@ -930,8 +930,62 @@
           </div>
         </div>
       </div>
-      <!--End Grow Modal-->
+      <!--End Fade Out Modal-->
     </div>
+
+    <!--Fade In Button Starts  -->
+        <div class="col-lg-3 col-xs-12">
+          <button class="btn white fade-in" data-toggle="modal" data-target="#fadeInModal">
+            <p>Fade-In</p>
+          </button>
+    <!--Fade In Button Ends  -->
+    <!--Fade In Modal-->
+        <div class="modal fade" id="fadeInModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <ul class="nav nav-tabs nav-justified">
+                <li class="active"><a data-toggle="tab" id="fadeIn-html" href=".html-content">HTML</a></li>
+                <li><a data-toggle="tab" id="fadeIn-css" href=".css-content">CSS</a></li>
+              </ul>
+              <div class="html-content">
+                <pre>
+                  <code>&lt;button class="btn white fade-in"&gt;</code>
+                  <code>&lt;p&gt;Fade-In&lt;/p&gt;</code>
+                  <code>&lt;/button&gt;</code>
+                </pre>
+              </div>
+              <div class="css-content hidden">
+               <pre>
+        <code class="style">
+        .fade-in {
+          background-color: $greentint;
+          border: 1px solid $white;
+          border-radius: 5px;
+          font-size: 5px;
+          height: 50px;
+          margin: 15px 15px 0;
+          opacity: .4;
+          padding-top: 10px;
+          text-align: center;
+          transition: 1s;
+          width: 150px;
+
+          p {
+            font-size: 12px;
+          }
+        }</code>
+                </pre>
+                <pre>
+        <code class="style">.fade-in:hover {
+          opacity: 1;
+          transition: 1s ease;
+        }</code>
+                </pre>
+              </div>
+            </div>
+          </div>
+        </div>
+    <!--End Fade In Modal-->
     <!--End Grow Button Animation in CSS  -->
     </div>
   </div>

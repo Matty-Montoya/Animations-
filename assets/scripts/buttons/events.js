@@ -44,6 +44,8 @@ const addHandlers = () => {
   $('#left-X180-html').click(onHTMLClick)
   $('#fadeOut-hmtl').click(onHTMLClick)
   $('#fadeOut-css').click(onCSSClick)
+  $('#fadeIn-html').click(onHTMLClick)
+  $('#fadeIn-css').click(onCSSClick)
 }
 
 module.exports = {

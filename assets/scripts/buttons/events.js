@@ -1,14 +1,22 @@
-'use strict'
+  'use strict'
 
 // const ui = require('./ui')
 
 const onCSSClick = (event) => {
   $('.css-content').removeClass('hidden')
   $('.html-content').addClass('hidden')
+  $('.keyframes-content').addClass('hidden')
 }
 
 const onHTMLClick = (event) => {
   $('.html-content').removeClass('hidden')
+  $('.css-content').addClass('hidden')
+  $('.keyframes-content').addClass('hidden')
+}
+
+const onKeyframesClick = (event) => {
+  $('.keyframes-content').removeClass('hidden')
+  $('.html-content').addClass('hidden')
   $('.css-content').addClass('hidden')
 }
 
@@ -46,6 +54,9 @@ const addHandlers = () => {
   $('#fadeOut-css').click(onCSSClick)
   $('#fadeIn-html').click(onHTMLClick)
   $('#fadeIn-css').click(onCSSClick)
+  $('#fadeOutPulse-html').click(onHTMLClick)
+  $('#fadeOutPulse-css').click(onCSSClick)
+  $('#fadeOutPulse-keyframes').click(onKeyframesClick)
 }
 
 module.exports = {

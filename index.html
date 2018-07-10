@@ -938,6 +938,7 @@
           <button class="btn white fade-in" data-toggle="modal" data-target="#fadeInModal">
             <p>Fade-In</p>
           </button>
+        </div>
     <!--Fade In Button Ends  -->
     <!--Fade In Modal-->
         <div class="modal fade" id="fadeInModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
@@ -986,6 +987,83 @@
           </div>
         </div>
     <!--End Fade In Modal-->
+
+    <!--Fade-Out Pulse Button Start-->
+    <div class="col-lg-3 col-xs-12">
+      <button class="btn white fade-out-pulse" data-toggle="modal" data-target="#fadeOutPulseModal">
+        <p>Fade-Out Pulse</p>
+      </button>
+    <!--Fade-Out Pulse Button End  -->
+    <!--Fade-Out Pulse Modal-->
+        <div class="modal fade" id="fadeOutPulseModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <ul class="nav nav-tabs nav-justified">
+                <li class="active"><a data-toggle="tab" id="fadeOutPulse-html" href=".html-content">HTML</a></li>
+                <li><a data-toggle="tab" id="fadeOutPulse-css" href=".css-content">CSS</a></li>
+                <li><a data-toggle="tab" id="fadeOutPulse-keyframes" href=".keyframes-content">Keyframes</a></li>
+              </ul>
+              <div class="html-content">
+                <pre>
+                  <code>&lt;button class="btn white fade-out-pulse"&gt;</code>
+                  <code>&lt;p&gt;Fade-Out Pulse&lt;/p&gt;</code>
+                  <code>&lt;/button&gt;</code>
+                </pre>
+              </div>
+              <div class="css-content hidden">
+               <pre>
+        <code class="style">
+        .fade-out-pulse {
+          background-color: $greentint;
+          border: 1px solid $white;
+          border-radius: 5px;
+          font-size: 5px;
+          height: 50px;
+          margin: 15px 15px 0;
+          padding-top: 10px;
+          text-align: center;
+          transition: 1s;
+          width: 150px;
+
+          p {
+            font-size: 12px;
+          }
+        }</code>
+                </pre>
+                <pre>
+        <code class="style">.fade-out-pulse:hover {
+          animation: pulse 1.5s infinite;
+          opacity: .7;
+          transition: 1s ease;
+        }</code>
+                </pre>
+              </div>
+              <div class="keyframes-content hidden">
+                <pre>
+          <code>
+  @keyframes pulse {
+    0% {
+      box-shadow: 0 0 0 0 rgba(12, 176, 0, .6);
+    }
+
+    50% {
+      box-shadow: 0 0 0 10px rgba(12, 176, 0, 0);
+    }
+
+    100% {
+      box-shadow: 0 0 0 0 rgba(12, 176, 0, 0);
+    }
+
+  }
+          </code>
+                </pre>
+              </div>
+            </div>
+          </div>
+        </div>
+    <!--End Fade In Modal-->
+
+
     <!--End Grow Button Animation in CSS  -->
     </div>
   </div>

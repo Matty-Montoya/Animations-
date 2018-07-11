@@ -74,6 +74,9 @@ const addHandlers = () => {
   $('#bounce-lr-html').click(onHTMLClick)
   $('#bounce-lr-css').click(onCSSClick)
   $('#bounce-lr-keyframes').click(onKeyframesClick)
+  $('#bounce-ud-html').click(onHTMLClick)
+  $('#bounce-ud-css').click(onCSSClick)
+  $('#bounce-ud-keyframes').click(onKeyframesClick)
 }
 
 module.exports = {

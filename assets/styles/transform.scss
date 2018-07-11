@@ -15,7 +15,7 @@
   width: 150px;
 
   p {
-    font-size: 12px;
+    font-size: 15px;
   }
 }
 
@@ -61,13 +61,14 @@
   width: 150px;
 
   p {
-    font-size: 12px;
+    font-size: 15px;
   }
 }
 
 .shrink:hover {
   border: 0;
+  // border-radius: 5px;
   box-shadow: 1px 1px 20px 1px $black;
-  transform: scale(.8);
+  transform: scale(.75);
   transition: .5s;
 }

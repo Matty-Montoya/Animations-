@@ -171,6 +171,8 @@
     <h1 class="translate">Translate Effects</h1>
       <p>Click on each button to view the code!</p>
     <hr>
+    <!--1st Row Starts  -->
+    <div class="row">
     <!--Translate X Right Starts -->
     <div class="col-lg-3 col-xs-12">
       <!--Translate X Right Button Starts -->
@@ -201,7 +203,7 @@
         border: 1px solid $white;
         border-radius: 5px;
         height: 50px;
-        margin: 10px 15px 15px;
+        margin: 25px 15px 25px;
         padding: 10px 0;
         text-align: center;
         transition: .5s;
@@ -257,7 +259,7 @@
         border: 1px solid $white;
         border-radius: 5px;
         height: 50px;
-        margin: 10px 15px 15px;
+        margin: 25px 15px 25px;
         padding: 10px 0;
         text-align: center;
         transition: .5s;
@@ -283,6 +285,121 @@
     </div>
     <!--Translate X Left Ends  -->
 
+    <!--Translate Y Up Starts -->
+    <div class="col-lg-3 col-xs-12">
+      <!--Translate Y Up Button Starts -->
+      <button class="btn white translatey-up" data-toggle="modal" data-target="#translateyUpModal">
+        <p>Translate Y <br> Up</p>
+      </button>
+      <!--Translate Y Up Button Ends  -->
+      <!--Translate Y Up Modal Start  -->
+      <div class="modal fade" id="translateyUpModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <ul class="nav nav-tabs nav-justified">
+              <li class="active"><a data-toggle="tab" id="translatey-up-html" href=".html-content">HTML</a></li>
+              <li><a data-toggle="tab" id="translatey-up-css" href=".css-content">CSS</a></li>
+            </ul>
+            <div class="html-content">
+              <pre>
+                <code>&lt;button class="btn white translatey-up"&gt;</code>
+                <code>&lt;p&gt;Translate Y &lt;br&gt; Up &lt;/p&gt;</code>
+                <code>&lt;/button&gt;</code>
+              </pre>
+            </div>
+            <div class="css-content hidden">
+             <pre>
+      <code class="style">
+      .translatey-up {
+        background-color: $purpletint;
+        border: 1px solid $white;
+        border-radius: 5px;
+        height: 50px;
+        margin: 25px 15px 25px;
+        padding: 10px 0;
+        text-align: center;
+        transition: .5s;
+        width: 150px;
+
+          p {
+          font-size: 12px;
+          }
+      }</code>
+              </pre>
+              <pre>
+      <code class="style">
+      .translatey-up:hover {
+        transform: translateY(-30px);
+        transition: .5s;
+      }</code>
+              </pre>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Translate Y Up Modal Ends -->
+    </div>
+    <!--Translate Y Up Ends  -->
+
+    <!--Translate Y Down Starts -->
+    <div class="col-lg-3 col-xs-12">
+      <!--Translate Y Down Button Starts -->
+      <button class="btn white translatey-down" data-toggle="modal" data-target="#translateyDownModal">
+        <p>Translate Y <br> Down</p>
+      </button>
+      <!--Translate Y Down Button Ends  -->
+      <!--Translate Y Down Modal Start  -->
+      <div class="modal fade" id="translateyDownModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <ul class="nav nav-tabs nav-justified">
+              <li class="active"><a data-toggle="tab" id="translatey-down-html" href=".html-content">HTML</a></li>
+              <li><a data-toggle="tab" id="translatey-down-css" href=".css-content">CSS</a></li>
+            </ul>
+            <div class="html-content">
+              <pre>
+                <code>&lt;button class="btn white translatey-up"&gt;</code>
+                <code>&lt;p&gt;Translate Y &lt;br&gt; Down &lt;/p&gt;</code>
+                <code>&lt;/button&gt;</code>
+              </pre>
+            </div>
+            <div class="css-content hidden">
+             <pre>
+      <code class="style">
+      .translatey-down {
+        background-color: $purpletint;
+        border: 1px solid $white;
+        border-radius: 5px;
+        height: 50px;
+        margin: 25px 15px 25px;
+        padding: 10px 0;
+        text-align: center;
+        transition: .5s;
+        width: 150px;
+
+          p {
+          font-size: 12px;
+          }
+      }</code>
+              </pre>
+              <pre>
+      <code class="style">
+      .translatey-down:hover {
+        transform: translateY(30px);
+        transition: .5s;
+      }</code>
+              </pre>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Translate Y Down Modal Ends -->
+    </div>
+    <!--Translate Y Down Ends  -->
+  </div>
+  <!--1st Row Ends  -->
+  <!--2nd Row Starts  -->
+  </div>
   </div>
 </div>
 <!--Translate Effects End-->

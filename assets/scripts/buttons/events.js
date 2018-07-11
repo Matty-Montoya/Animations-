@@ -67,6 +67,10 @@ const addHandlers = () => {
   $('#translatex-right-css').click(onCSSClick)
   $('#translatex-left-html').click(onHTMLClick)
   $('#translatex-left-css').click(onCSSClick)
+  $('#translatey-up-html').click(onHTMLClick)
+  $('#translatey-up-css').click(onCSSClick)
+  $('#translatey-down-html').click(onHTMLClick)
+  $('#translatey-down-css').click(onCSSClick)
 }
 
 module.exports = {

@@ -1528,8 +1528,8 @@
                 </pre>
                 <pre>
         <code class="style">.fade-out-pulse:hover {
-          animation: pulse 1.5s infinite;
-          opacity: .7;
+          animation: pulse 1.8s infinite;
+          opacity: .5;
           transition: 1s ease;
         }</code>
                 </pre>
@@ -1560,13 +1560,14 @@
     <!--End Fade Out Pulse Modal-->
   </div>
 
-  <!--Fade-Out Pulse Button Start-->
+  <!--Fade In Pulse Start  -->
+  <!--Fade-In Pulse Button Start-->
   <div class="col-lg-4 col-xs-12">
     <button class="btn white fade-in-pulse" data-toggle="modal" data-target="#fadeInPulseModal">
       <p>Fade-In Pulse</p>
     </button>
-  <!--Fade-Out Pulse Button End  -->
-  <!--Fade-Out Pulse Modal-->
+  <!--Fade-In Pulse Button End  -->
+  <!--Fade-In Pulse Modal-->
       <div class="modal fade" id="fadeInPulseModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
         <div class="modal-dialog modal-lg" role="document">
           <div class="modal-content">
@@ -1586,7 +1587,7 @@
              <pre>
       <code class="style">
       .fade-in-pulse {
-        background-color: $greentint;
+        background-color: $orangetint;
         border: 1px solid $white;
         border-radius: 5px;
         font-size: 5px;
@@ -1605,7 +1606,7 @@
               </pre>
               <pre>
       <code class="style">.fade-in-pulse:hover {
-        animation: pulse 1.5s infinite;
+        animation: pulse 1.8s infinite;
         opacity: 1;
         transition: 1s ease;
       }</code>
@@ -1635,6 +1636,90 @@
         </div>
       </div>
   <!--End Fade In Pulse Modal-->
+  </div>
+  <!--Fade In Pulse Ends  -->
+  </div>
+  <!--1st Row Ends  -->
+
+  <!--Second Row Start  -->
+  <div class="row">
+
+  <!--Blink Start   -->
+  <!--Blink Button Starts  -->
+  <div class="col-lg-4 col-xs-12">
+    <button class="btn white blink" data-toggle="modal" data-target="#blinkModal">
+      <p>Blink</p>
+    </button>
+  </div>
+  <!--Blink Button Ends -->
+  <!--Blink Modal Start -->
+  <!--Fade-Out Pulse Modal-->
+      <div class="modal fade" id="blinkModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <ul class="nav nav-tabs nav-justified">
+              <li class="active"><a data-toggle="tab" id="blink-html" href=".html-content">HTML</a></li>
+              <li><a data-toggle="tab" id="blink-css" href=".css-content">CSS</a></li>
+              <li><a data-toggle="tab" id="blink-keyframes" href=".keyframes-content">Keyframes</a></li>
+            </ul>
+            <div class="html-content">
+              <pre>
+                <code>&lt;button class="btn white blink"&gt;</code>
+                <code>&lt;p&gt;Blink&lt;/p&gt;</code>
+                <code>&lt;/button&gt;</code>
+              </pre>
+            </div>
+            <div class="css-content hidden">
+             <pre>
+      <code class="style">
+      .blink {
+        background-color: $orangetint;
+        border: 1px solid $white;
+        border-radius: 5px;
+        font-size: 5px;
+        height: 50px;
+        margin: 15px 15px 0;
+        padding-top: 10px;
+        text-align: center;
+        transition: .5s;
+        width: 150px;
+
+        p {
+          font-size: 12px;
+        }
+      }</code>
+              </pre>
+              <pre>
+      <code class="style">.blink:hover {
+        animation: blink 1.2s linear infinite;
+      }</code>
+              </pre>
+            </div>
+            <div class="keyframes-content hidden">
+              <pre>
+        <code>
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+
+    50% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+        </code>
+              </pre>
+            </div>
+          </div>
+        </div>
+      </div>
+  <!--End Fade In Pulse Modal-->
+  <!--Blink Modal Ends  -->
+  <!--Blink Effect End -->
   </div>
 
   </div>

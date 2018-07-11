@@ -57,6 +57,16 @@ const addHandlers = () => {
   $('#fadeOutPulse-html').click(onHTMLClick)
   $('#fadeOutPulse-css').click(onCSSClick)
   $('#fadeOutPulse-keyframes').click(onKeyframesClick)
+  $('#fadeInPulse-html').click(onHTMLClick)
+  $('#fadeInPulse-css').click(onCSSClick)
+  $('#fadeInPulse-keyframes').click(onKeyframesClick)
+  $('#Pulse-html').click(onHTMLClick)
+  $('#Pulse-css').click(onCSSClick)
+  $('#Pulse-keyframes').click(onKeyframesClick)
+  $('#translatex-right-html').click(onHTMLClick)
+  $('#translatex-right-css').click(onCSSClick)
+  $('#translatex-left-html').click(onHTMLClick)
+  $('#translatex-left-css').click(onCSSClick)
 }
 
 module.exports = {

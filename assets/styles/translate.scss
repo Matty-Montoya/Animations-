@@ -1,0 +1,46 @@
+@import 'colors';
+@import 'typography';
+@import 'body';
+
+
+.translatex-right {
+  background-color: $purpletint;
+  border: 1px solid $white;
+  border-radius: 5px;
+  height: 50px;
+  margin: 10px 15px 15px;
+  padding: 10px 0;
+  text-align: center;
+  transition: .5s;
+  width: 150px;
+
+    p {
+    font-size: 12px;
+    }
+}
+
+.translatex-right:hover {
+  transform: translateX(50px);
+  transition: .5s;
+}
+
+.translatex-left {
+  background-color: $purpletint;
+  border: 1px solid $white;
+  border-radius: 5px;
+  height: 50px;
+  margin: 10px 15px 15px;
+  padding: 10px 0;
+  text-align: center;
+  transition: .5s;
+  width: 150px;
+
+    p {
+    font-size: 12px;
+    }
+}
+
+.translatex-left:hover {
+  transform: translateX(-50px);
+  transition: .5s;
+}

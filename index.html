@@ -25,6 +25,7 @@
       <ul class="nav navbar-nav">
         <li><a class="page-scroll" href="#grow">Grow</a></li>
         <li><a class="page-scroll" href="#shrink">Shrink</a></li>
+        <li><a class="page-scroll" href="#translate">Translate</a></li>
         <li><a class="page-scroll" href="#rotate">Rotate</a></li>
         <li><a class="page-scroll" href="#fades">Fade</a></li>
         <li><a class="page-scroll" href="#pulse">Pulse</a></li>
@@ -163,6 +164,128 @@
   </div>
 </div>
 <!--Shrink Effects Ends  -->
+
+<!--Translate Effects Begin-->
+<div class="container" id="translate">
+  <div class="row table">
+    <h1 class="translate">Translate Effects</h1>
+      <p>Click on each button to view the code!</p>
+    <hr>
+    <!--Translate X Right Starts -->
+    <div class="col-lg-3 col-xs-12">
+      <!--Translate X Right Button Starts -->
+      <button class="btn white translatex-right" data-toggle="modal" data-target="#translateXRightModal">
+        <p>Translate X <br> Right</p>
+      </button>
+      <!--Translate X Right Button Ends  -->
+      <!--Translate X Right Modal Start  -->
+      <div class="modal fade" id="translateXRightModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <ul class="nav nav-tabs nav-justified">
+              <li class="active"><a data-toggle="tab" id="translatex-right-html" href=".html-content">HTML</a></li>
+              <li><a data-toggle="tab" id="translatex-right-css" href=".css-content">CSS</a></li>
+            </ul>
+            <div class="html-content">
+              <pre>
+                <code>&lt;button class="btn white translatex-right"&gt;</code>
+                <code>&lt;p&gt;Translate X &lt;br&gt; Right &lt;/p&gt;</code>
+                <code>&lt;/button&gt;</code>
+              </pre>
+            </div>
+            <div class="css-content hidden">
+             <pre>
+      <code class="style">
+      .translatex-right {
+        background-color: $purpletint;
+        border: 1px solid $white;
+        border-radius: 5px;
+        height: 50px;
+        margin: 10px 15px 15px;
+        padding: 10px 0;
+        text-align: center;
+        transition: .5s;
+        width: 150px;
+
+          p {
+          font-size: 12px;
+          }
+      }</code>
+              </pre>
+              <pre>
+      <code class="style">
+      .translatex-right:hover {
+        transform: translateX(50px);
+        transition: .5s;
+      }</code>
+              </pre>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Translate X Right Modal Ends -->
+    </div>
+    <!--Translate X Right Ends  -->
+
+    <!--Translate X Left Start-->
+    <div class="col-lg-3 col-xs-12">
+    <!--Translate X Left Button Start-->
+      <button class="btn white translatex-left" data-toggle="modal" data-target="#translateXLeftModal">
+        <p>Translate X <br> Left</p>
+      </button>
+      <!--Translate X Left Button Ends  -->
+      <!--Translate X Left Modal Start  -->
+      <div class="modal fade" id="translateXLeftModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <ul class="nav nav-tabs nav-justified">
+              <li class="active"><a data-toggle="tab" id="translatex-left-html" href=".html-content">HTML</a></li>
+              <li><a data-toggle="tab" id="translatex-left-css" href=".css-content">CSS</a></li>
+            </ul>
+            <div class="html-content">
+              <pre>
+                <code>&lt;button class="btn white translatex-left"&gt;</code>
+                <code>&lt;p&gt;Translate X &lt;br&gt; Left &lt;/p&gt;</code>
+                <code>&lt;/button&gt;</code>
+              </pre>
+            </div>
+            <div class="css-content hidden">
+             <pre>
+      <code class="style">
+      .translatex-left {
+        background-color: $purpletint;
+        border: 1px solid $white;
+        border-radius: 5px;
+        height: 50px;
+        margin: 10px 15px 15px;
+        padding: 10px 0;
+        text-align: center;
+        transition: .5s;
+        width: 150px;
+
+          p {
+          font-size: 12px;
+          }
+      }</code>
+              </pre>
+              <pre>
+      <code class="style">
+      .translatex-left:hover {
+        transform: translateX(-50px);
+        transition: .5s;
+      }</code>
+              </pre>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Translate X Left Modal Ends -->
+    </div>
+    <!--Translate X Left Ends  -->
+
+  </div>
+</div>
+<!--Translate Effects End-->
 
 <!--Rotate Effects Begin-->
 <div class="container" id="rotate">
@@ -1002,12 +1125,78 @@
 
     <!--Pulse Button Start  -->
       <div class="col-lg-4 col-xs-12">
-        <button class="btn white pulse" data-toggle="modal" data-target="#pulseModal">
+        <button class="btn white pulse" data-toggle="modal" data-target="#PulseModal">
           <p>Pulse</p>
         </button>
       </div>
     <!--Pulse Button End  -->
     <!--Pulse Modal Begin  -->
+      <div class="modal fade" id="PulseModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <ul class="nav nav-tabs nav-justified">
+              <li class="active"><a data-toggle="tab" id="Pulse-html" href=".html-content">HTML</a></li>
+              <li><a data-toggle="tab" id="Pulse-css" href=".css-content">CSS</a></li>
+              <li><a data-toggle="tab" id="Pulse-keyframes" href=".keyframes-content">Keyframes</a></li>
+            </ul>
+            <div class="html-content">
+              <pre>
+                <code>&lt;button class="btn white pulse"&gt;</code>
+                <code>&lt;p&gt;Pulse&lt;/p&gt;</code>
+                <code>&lt;/button&gt;</code>
+              </pre>
+            </div>
+            <div class="css-content hidden">
+             <pre>
+      <code class="style">
+      .pulse {
+        background-color: $orangetint;
+        border: 1px solid $white;
+        border-radius: 5px;
+        font-size: 5px;
+        height: 50px;
+        margin: 15px 15px 0;
+        padding-top: 10px;
+        text-align: center;
+        transition: 1s;
+        width: 150px;
+
+        p {
+          font-size: 12px;
+        }
+      }</code>
+              </pre>
+              <pre>
+      <code class="style">.pulse:hover {
+        animation: pulse 1.8s infinite;
+        transition: 1s ease;
+      }</code>
+              </pre>
+            </div>
+            <div class="keyframes-content hidden">
+              <pre>
+        <code>
+  @keyframes pulse {
+    0% {
+      box-shadow: 0 0 0 0 rgba(12, 176, 0, .6);
+    }
+
+    50% {
+      box-shadow: 0 0 0 10px rgba(12, 176, 0, 0);
+    }
+
+    100% {
+      box-shadow: 0 0 0 0 rgba(12, 176, 0, 0);
+    }
+
+  }
+        </code>
+              </pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!--Pulse Modal End  -->
 
     <!--Fade-Out Pulse Button Start-->
     <div class="col-lg-4 col-xs-12">
@@ -1139,20 +1328,20 @@
             <div class="keyframes-content hidden">
               <pre>
         <code>
-@keyframes pulse {
-  0% {
-    box-shadow: 0 0 0 0 rgba(12, 176, 0, .6);
-  }
+  @keyframes pulse {
+    0% {
+      box-shadow: 0 0 0 0 rgba(12, 176, 0, .6);
+    }
 
-  50% {
-    box-shadow: 0 0 0 10px rgba(12, 176, 0, 0);
-  }
+    50% {
+      box-shadow: 0 0 0 10px rgba(12, 176, 0, 0);
+    }
 
-  100% {
-    box-shadow: 0 0 0 0 rgba(12, 176, 0, 0);
-  }
+    100% {
+      box-shadow: 0 0 0 0 rgba(12, 176, 0, 0);
+    }
 
-}
+  }
         </code>
               </pre>
             </div>
@@ -1160,10 +1349,10 @@
         </div>
       </div>
   <!--End Fade In Pulse Modal-->
-</div>
+  </div>
 
   </div>
-</div>
+  </div>
 <!--Pulse Effects Ends  -->
 
 <div class="row">

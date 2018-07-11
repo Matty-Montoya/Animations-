@@ -22,6 +22,7 @@
 
 .pulse:hover {
   animation: pulse 1.8s infinite;
+  transition: 1s ease;
 }
 
 .fade-out-pulse {

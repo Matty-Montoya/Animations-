@@ -71,6 +71,9 @@ const addHandlers = () => {
   $('#translatey-up-css').click(onCSSClick)
   $('#translatey-down-html').click(onHTMLClick)
   $('#translatey-down-css').click(onCSSClick)
+  $('#bounce-lr-html').click(onHTMLClick)
+  $('#bounce-lr-css').click(onCSSClick)
+  $('#bounce-lr-keyframes').click(onKeyframesClick)
 }
 
 module.exports = {
